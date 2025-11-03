@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 24px 156px;
+}
+.gallery {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(3, 360px);
+    gap: 24px;
+    margin: 0;
+}
+
+.gallery-item {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
